@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  /* background-image: linear-gradient(to top, #795dbd 0%, #fbc2eb 100%); */
+
+}
+
+.galleries {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex: 0 0 49%;
+  max-width: 50%;
+  width: 100%;
+}
+
+.title {
+  text-transform: capitalize;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  justify-content: center;
+  padding: 20px 10px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  border-radius: 10px;
+
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: block;
+}
+
+.image {
+  width: 240px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 240px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.title {
+  font-size: 24px;
+  color: rgb(79, 44, 99);
+  text-align: left;
+
+}
+
+.description {
+  font-size: 14px;
+  color: rgb(79, 44, 99);
+  text-align: left;
+
+}
+
+.comment {
+  /* background-color: #fff; */
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.author {
+  font-size: 20px;
+  color: darkgoldenrod;
+  text-align: left;
+}
+
+.comment {
+
+  color: darkgoldenrod;
+  text-align: left;
+}
+
+input,
+textarea {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  color: wheat;
+  border: 1px solid #a18cd1 !important;
+}
